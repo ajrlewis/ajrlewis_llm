@@ -1,0 +1,16 @@
+[project]
+name = "ajrlewis_llm"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "ajrlewis", email = "hello@ajrlewis.com" }
+]
+dependencies = [
+    "loguru==0.7.2"
+]
+license = "MIT"
+
+[tool.setuptools]
+packages = ["ajrlewis_llm"]
